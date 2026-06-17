@@ -7,7 +7,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-25.12
-  CONFIG_FILE: config/.config    # 已适配您的 config 文件夹路径
+  CONFIG_FILE: .config    # 已适配您的 config 文件夹路径
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
